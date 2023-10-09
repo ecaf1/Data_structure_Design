@@ -5,8 +5,44 @@
 ### 1. Construir um Compactador de Arquivos Utilizando a Estrutura Huffman
 Neste tópico, o foco é na implementação de um compactador de arquivos baseado na codificação de Huffman. O objetivo é otimizar o armazenamento através da compressão eficiente de arquivos.
 
-### 2. Apresentar Seminário Sobre um Algoritmo Específico
-Aqui, o objetivo é apresentar um seminário detalhado sobre um algoritmo específico relacionado ao projeto. Isso pode envolver discussões aprofundadas sobre a teoria, aplicações práticas e possíveis limitações do algoritmo escolhido.
+ ### 2. Solução Eficiente para o Desafio de Marcinho Utilizando o Algoritmo Kruskal
+
+#### Introdução
+
+Neste tópico, abordaremos a solução proposta para o desafio logístico enfrentado por Marcinho, um empreendedor que construiu um complexo de 9 mansões de luxo em uma região isolada. O desafio envolve o fornecimento eficiente de energia elétrica para todas as mansões, minimizando os custos operacionais enquanto mantém a qualidade do serviço.
+
+#### Algoritmo de Kruskal
+
+Para resolver esse desafio, optamos por aplicar o algoritmo de Kruskal, uma técnica da teoria dos grafos que encontra a árvore geradora mínima de um grafo ponderado. Neste contexto, o grafo representa a rede elétrica, com as mansões como vértices e as arestas representando as conexões elétricas entre elas.
+
+##### Funcionamento do Algoritmo
+
+O algoritmo de Kruskal opera encontrando um subconjunto das arestas do grafo original, conectando todos os vértices de forma acíclica e minimizando o peso total. Isso é ideal para Marcinho, pois ajuda a reduzir os custos de instalação da rede elétrica.
+
+#### Aplicação Prática
+
+Como exemplo prático, consideramos o seguinte cenário:
+
+- Temos um grafo que representa as 9 mansões de Marcinho, com as arestas representando os custos das conexões elétricas.
+- Usando o algoritmo de Kruskal, encontramos a árvore geradora mínima que conecta todas as mansões de maneira eficiente, minimizando os custos.
+- O resultado é um plano de instalação elétrica que atende às necessidades de todas as mansões, economizando recursos financeiros.
+
+##### O Complexo de Mansões de Marcinho
+
+As 9 mansões de Marcinho, verdadeiras jóias arquitetônicas, estão distribuídas por uma vasta extensão de terra. Para atender às necessidades de energia elétrica dessas mansões de forma eficiente, aplicaremos o algoritmo de Kruskal.
+
+#### Grafo da Rede Elétrica
+
+Aqui está o grafo completo que representa a rede elétrica das 9 mansões de Marcinho, onde as arestas representam os custos das conexões elétricas:
+
+![Inserir Imagem do Grafo Completo](./Kruskal/Complexo_Marcinho.png)
+
+#### Solução com o Algoritmo de Kruskal
+
+Usando o algoritmo de Kruskal, encontramos a árvore geradora mínima que conecta todas as mansões de maneira eficiente, minimizando os custos. Abaixo está a representação visual da árvore mínima geradora que resolve o desafio de distribuição de energia:
+
+![Inserir Imagem da Árvore Mínima Geradora](./Kruskal/Solução_para_Complexo_Marcinho.png)
+
 
 ### 3. Comparação Entre Árvores AVL e Árvores Binárias Não Balanceadas
 
